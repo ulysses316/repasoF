@@ -1,0 +1,20 @@
+div{
+    border:solid red 1px;
+}
+
+.contenedor{
+    height: 90vh;
+    
+    /* Instrucciones de flex */
+    display:flex;
+    /* Horizontal */
+    justify-content:center ;
+    /* Vertical */
+    align-items: center;
+    /* Manera en la que trabajamos, columna o fila */
+    flex-direction: row;
+}
+
+.tres{
+    order:-1;
+}
